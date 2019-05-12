@@ -49,6 +49,10 @@ To Do:
 * ~~Popular base de dados: frases variadas fase 4~~
 * ~~Adicionar delays e sons~~
 * ~~Verificar variação de escrita dos gêneros~~
+* Adicionar ficção como sinonimo de sci-fi
+* Mudar indie na pergunta para independentes
+* Adicionar opção de 'tanto faz', 'não importa' e etc para todas as opções de pergunta
+* Investigar porque desconhecidos não foi detectado e quando foi, encontrou conhecidos
 * Popular base de dados: frases variadas filler
 * Adicionar frases filler em momentos adequados
 * Adicionar casos de excepcionais dos nomes
