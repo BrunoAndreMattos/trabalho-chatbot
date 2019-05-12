@@ -2,10 +2,10 @@ Linguagens Formais e Autômatos - INF05005
 Andrei Rodrigues - Bruno Mattos - Gabriel Vogel - Guilhereme Klein - Nicolle Favero
 
 Tecnologias:
-v0 - Python, RegEx
-v1 - JavaScript, Vue.js, RegEx
-V2? - JavaScript, Vue.js, tensorflow?
-Tema: bot recomendador de filmes
+* v0 - Python, RegEx
+* v1 - JavaScript, Vue.js, RegEx
+* V2? - JavaScript, Vue.js, tensorflow?
+* Tema: bot recomendador de filmes
 ----------------------------------------------------------------------------------------------------------------------
 Entrega do artigo 06/09
 Critérios de availiação:
