@@ -49,15 +49,21 @@ To Do:
 * ~~Popular base de dados: frases variadas fase 4~~
 * ~~Adicionar delays e sons~~
 * ~~Verificar variação de escrita dos gêneros~~
-* Adicionar ficção como sinonimo de sci-fi
-* Mudar indie na pergunta para independentes
+* Caracteres especiais ?
+* ~~Adicionar ficção como sinonimo de sci-fi~~
+* ~~Mudar indie na pergunta para independentes~~
 * Adicionar opção de 'tanto faz', 'não importa' e etc para todas as opções de pergunta
-* Investigar porque desconhecidos não foi detectado e quando foi, encontrou conhecidos
+* ~~Investigar porque desconhecidos não foi detectado e quando foi, encontrou conhecidos~~
 * Popular base de dados: frases variadas filler
 * Adicionar frases filler em momentos adequados
 * Adicionar casos de excepcionais dos nomes
 * Adicionar limite de paciência em caso de loop na fase 2 e 3
 * Criar uma lista de falhas de implementação (caracteres especiais, palavras ao fim do nome que não estão nos casos excepcionais)
+
+
+ Mencionar no relatório:
+ * Colocar links do stackoverflow e resources no relatório
+
 
 Chatbot v1.0
 

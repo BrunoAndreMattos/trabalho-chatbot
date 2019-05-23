@@ -104,13 +104,14 @@ filmes.append(Filme('Psicose (1960)', 'terror',                                 
 # expressões regulares
 pegaNome = r'\w[a-zÀ-ÿ]*$'
 pegaApelido = r'^\w{2}'
-regExGeneros = r'(animação|animacao|animaçao|animações|animaçoes|ação|açao|aventura|comédia romântica|comedia romântica|comedia romantica|comédia|comedia|documentario|documentário|drama|ficção científica|sci fi|sci-fi|ficçao cientifica|ficção cientifica|guerra|musical|policial|romance|super-herói|herói|heroi|super heroi|super-heroi|suspense|terror|horror)'
+regExGeneros = r'(animação|animacao|animaçao|animações|animaçoes|ação|açao|aventura|comédia romântica|comedia romântica|comedia romantica|comédia|comedia|documentario|documentário|drama|ficção científica|ficção|sci fi|sci-fi|ficçao cientifica|ficção cientifica|guerra|musical|policial|romance|super-herói|herói|heroi|super heroi|super-heroi|suspense|terror|horror)'
 curte = r'(sim|gosto|curto|pode ser|aham|ok|true|tru|ye|yes|certo|adoro|amo|as vezes|sou)'
 naoCurte = r'(não|nao|na verdade|nah|gosto mesmo é de|não gosto|nao gosto)'
 encontraLancamento = r'(lançamentos|lançamento|lancamento|lancamentos|blockbuster|AAA|novos|novo)'
 encontraAntigo = r'(antigos|clássicos|clássico|classico|classicos|antigo|datados)'
 encontraIndie = r'(nao famoso|não famoso|não famosos|nao famosos|indie|indies|desconnhecido|desconhecidos|não popular|não populares|nao populares|obscuro|obscuro|cult|cults|não muito popular|não muito populares|nao muito populares|nao popular|nao muito popular|independente|independentes)'
-encontraConhecido = r'(conhecidos|conhecido|popular|populares|famoso|famosos)'
+encontraConhecido = r'(\bconhecidos\b|\bconhecido\b|popular|populares|famoso|famosos|pop)'
+# (tanto faz|nao importa|qualquer|qualquer um|tu que sabe|voce decide|decidir|decide aí)
 
 # fillers
 fillers = ("", "", "", "", "", "", "", "", "", "", "")
@@ -142,7 +143,7 @@ falasNaoReconheceGenero = ("Perdão mas eu não entendi",
 
 falasComentaSobreGenero = ("Hehe já passei mais tardes do que gostaria de admitir assistindo filmes de ",
                 "Ahhhh! Eu adoro filmes de ",
-                "É clichê, mas são muito bom os filmes de ")
+                "É clichê, mas são muito bons os filmes de ")
 
 # base de dados de falas da fase 2
 falasComentaSobreLancamento = ("Ah nada como ir no cinema aproveitar um filme recém lançado",
@@ -158,7 +159,7 @@ falasComentaSobreConhecido = ("Ah eu também prefiro filmes conhecidos, é mais 
                 "O bom de filmes conhecidos é que tem bastante review na internet!",
                 "Opa eu também gosto de filmes mais conhecidos e tal")
 
-falasComentaSobreIndie = ("Uhhhh temos alguém cult aqui, só nos filmes indie",
+falasComentaSobreIndie = ("Uhhhh temos alguém cult aqui, só nos filmes independentes obscuros",
                 "Então você é do tipo que comenta sobre os filmes que assite e seus amigos ficam ????",
                 "Bah eu também adoro! Mas é dificil encontrar pessoas pra conversar sobre")
 

@@ -184,7 +184,7 @@ def fase3(genero, lancamento, nomeUsuario):
     # Retorna a preferência do usuário
     while respostaValida == False:
         winsound.Beep(freq, duration)
-        print(nomeBot + ': Enfim, você prefere filmes indies e desconhecidos ou algo mais popular?')
+        print(nomeBot + ': Enfim, você prefere filmes desconhecidos ou algo mais popular?')
 
         entrada = input(nomeUsuario + ": ")
         time.sleep(tempo)
@@ -230,7 +230,7 @@ def fase4(genero, lancamento, indie, nomeUsuario):
         genero = strip_accents('animação')
     elif re.search(r'(horror)', genero):
         genero = 'terror'
-    elif re.search(r'(sci fi|sci-fi)', genero):
+    elif re.search(r'(sci fi|sci-fi|ficção|ficcao)', genero):
         genero = strip_accents('ficção científica')
     elif re.search(r'(herói|heroi|super heroi)', genero):
         genero = strip_accents('super-herói')
